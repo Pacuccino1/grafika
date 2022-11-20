@@ -1,0 +1,21 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+// COLORS
+
+$white-color: #FFF;
+$black-color: #000;
+$lighter-black-color: #272727;
+$grey-color: #DDD;
+$darker-grey-color: #bbbbbb;
+$yellow-color: #FFBA31;
+$faded-yellow-color: #F0B74C;
+
+// CONFIGURATION
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}

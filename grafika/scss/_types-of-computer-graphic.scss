@@ -1,0 +1,53 @@
+.slide2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 8rem;
+
+    &__heading {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    &__content-container {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $lighter-black-color;
+        color: $white-color;
+        padding: 2rem;
+        border-radius: .4rem;
+
+        h3 {
+            display: inline-block;
+            text-align: center;
+            padding: 0 2rem;
+            font-size: 2rem;
+            background-color: $yellow-color;
+            color: $lighter-black-color;
+        }
+
+        .description {
+            font-weight: 300;
+            padding: 1rem;
+            text-align: justify;
+            
+            span {
+                font-weight: 600;
+                color: $faded-yellow-color;
+            }
+        }
+    }
+
+    img {
+        margin-top: 2rem;
+    }
+}

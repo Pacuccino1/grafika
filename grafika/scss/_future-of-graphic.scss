@@ -1,0 +1,40 @@
+.slide4 {
+    padding: 3rem 8rem;
+
+    &__heading {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    &__content-container {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $lighter-black-color;
+            color: $grey-color;
+            padding: 3rem;
+            border-radius: .4rem;
+
+            h3 {
+                display: inline-block;
+                padding: 0 2rem;
+                font-size: 2rem;
+                background-color: $yellow-color;
+                color: $lighter-black-color;
+            }
+
+            .description {
+                text-align: center;
+                width: 90%;
+                margin: 3rem 0;
+                font-weight: 600;
+            }
+        }
+    }
+}

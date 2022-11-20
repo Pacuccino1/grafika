@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-menu {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 33% 67%;
+  background-color: #FFBA31;
+  position: sticky;
+  top: 0;
+}
+.text-menu__photo {
+  background-color: #bbbbbb;
+  display: flex;
+  justify-content: center;
+  padding: 1.8rem 0;
+}
+.text-menu__photo img {
+  width: 250px;
+}
+.text-menu__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
+.text-menu .dots {
+  color: #272727;
+  font-size: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.text-menu .dots .bigger-dot {
+  font-size: 0.6rem;
+}
+.text-menu .dots i {
+  margin: 2px 0;
+}
+.text-menu__item {
+  padding: 0.3rem 2rem;
+}
+.text-menu__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out;
+}
+.text-menu__link:hover {
+  color: #FFF;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.home__left-side {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FFF;
+  padding-left: 7rem;
+}
+.home__heading {
+  text-transform: uppercase;
+}
+.home__heading h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 50%;
+}
+.home__heading h1 {
+  font-weight: 800;
+  font-size: 5rem;
+}
+.home__heading h3 {
+  display: inline-block;
+  background-color: #FFBA31;
+  padding: 0 0.7rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.home__heading .button {
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFBA31;
+  margin-top: 2rem;
+  border-radius: 5rem;
+  transition: color 0.2s ease-in-out;
+}
+.home__heading .button:hover a {
+  color: #FFF;
+}
+.home__heading .button a {
+  padding: 0.4rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #272727;
+  font-weight: 600;
+}
+.home__right-side {
+  background-color: #F0B74C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__right-side img {
+  width: 600px;
+}
+
+.about-me {
+  padding: 3rem 8rem;
+}
+.about-me__short-description h3 {
+  display: inline-block;
+  padding: 0 1rem;
+  margin-top: 3rem;
+  background-color: #FFBA31;
+}
+.about-me__short-description p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  font-weight: 500;
+}
+.about-me__lower-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  color: #272727;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.another-font {
+  font-family: "Londrina Outline", cursive;
+  letter-spacing: 8px;
+  color: #FFBA31;
+  margin-left: 10px;
+}
+
+.section {
+  min-height: 100vh;
+  background-color: #DDD;
+}
+
+.page-break {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.main-heading {
+  width: 100%;
+  text-align: center;
+  border: 2px dotted #000;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #272727;
+  letter-spacing: 7px;
+}
+.main-heading h1 {
+  line-height: 150%;
+}
+
+.slide2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 8rem;
+}
+.slide2__heading {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+.slide2__content-container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.slide2__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272727;
+  color: #FFF;
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+.slide2__box h3 {
+  display: inline-block;
+  text-align: center;
+  padding: 0 2rem;
+  font-size: 2rem;
+  background-color: #FFBA31;
+  color: #272727;
+}
+.slide2__box .description {
+  font-weight: 300;
+  padding: 1rem;
+  text-align: justify;
+}
+.slide2__box .description span {
+  font-weight: 600;
+  color: #F0B74C;
+}
+.slide2 img {
+  margin-top: 2rem;
+}
+
+.slide3 {
+  padding: 3rem 8rem;
+}
+.slide3__heading {
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+}
+.slide3__content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.slide3__content-container .box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 0.4rem;
+  color: #DDD;
+}
+.slide3__content-container .box h3 {
+  font-size: 2.4rem;
+  display: inline-block;
+  background-color: #FFBA31;
+  color: #272727;
+  padding: 0 2rem;
+  margin-top: 1.3rem;
+}
+.slide3__content-container .box .description {
+  width: 90%;
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.slide3__content-container .box img {
+  margin: 3rem 0;
+}
+
+.slide4 {
+  padding: 3rem 8rem;
+}
+.slide4__heading {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+.slide4__content-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.slide4__content-container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272727;
+  color: #DDD;
+  padding: 3rem;
+  border-radius: 0.4rem;
+}
+.slide4__content-container .box h3 {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 2rem;
+  background-color: #FFBA31;
+  color: #272727;
+}
+.slide4__content-container .box .description {
+  text-align: center;
+  width: 90%;
+  margin: 3rem 0;
+  font-weight: 600;
+}
+
+.slide5 {
+  padding: 3rem 8rem;
+}
+.slide5__heading {
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+}
+.slide5__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+.slide5__container .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #272727;
+  padding: 2rem 1rem;
+  border-radius: 0.4rem;
+}
+.slide5__container .program-name {
+  background-color: #FFBA31;
+  color: #272727;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.slide5__container img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

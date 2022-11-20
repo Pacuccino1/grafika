@@ -1,0 +1,45 @@
+@import 'config';
+@import 'text-menu';
+@import 'home';
+@import 'about-me';
+
+html {
+    scroll-behavior: smooth;
+}
+
+.another-font {
+    font-family: 'Londrina Outline', cursive;
+    letter-spacing: 8px;
+    color: $yellow-color;
+    margin-left: 10px;
+}
+
+.section {
+    min-height: 100vh;
+    background-color: $grey-color;
+    // border-bottom: 2px dotted $lighter-black-color;
+}
+
+.page-break {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.main-heading {
+    width: 100%;
+    text-align: center;
+    border: 2px dotted $black-color;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: $lighter-black-color;
+    letter-spacing: 7px;
+    
+    h1 {
+        line-height: 150%;
+    }
+}
+
+@import 'types-of-computer-graphic';
+@import 'color-models';
+@import 'future-of-graphic';
+@import 'programs';
